@@ -1,0 +1,101 @@
+[
+  {
+    "@id": "dtmi:msdugHomeOffice:ArduinoSmartPlantWateringKit72i;1",
+    "@type": "Interface",
+    "contents": [
+      {
+        "@id": "dtmi:msdugHomeOffice:ArduinoSmartPlantWateringKit72i:Moisture1;1",
+        "@type": "Telemetry",
+        "displayName": {
+          "en": "Moisture1"
+        },
+        "name": "Moisture1",
+        "schema": "double"
+      },
+      {
+        "@id": "dtmi:msdugHomeOffice:ArduinoSmartPlantWateringKit72i:Moisture2;1",
+        "@type": "Telemetry",
+        "displayName": {
+          "en": "Moisture2"
+        },
+        "name": "Moisture2",
+        "schema": "double"
+      },
+      {
+        "@id": "dtmi:msdugHomeOffice:ArduinoSmartPlantWateringKit72i:Moisture3;1",
+        "@type": "Telemetry",
+        "displayName": {
+          "en": "Moisture3"
+        },
+        "name": "Moisture3",
+        "schema": "double"
+      },
+      {
+        "@id": "dtmi:msdugHomeOffice:ArduinoSmartPlantWateringKit72i:Moisture4;1",
+        "@type": "Telemetry",
+        "displayName": {
+          "en": "Moisture4"
+        },
+        "name": "Moisture4",
+        "schema": "double"
+      },
+      {
+        "@id": "dtmi:msdugHomeOffice:ArduinoSmartPlantWateringKit72i:Relay1State;1",
+        "@type": "Property",
+        "displayName": {
+          "en": "Relay1State"
+        },
+        "name": "Relay1State",
+        "schema": "integer",
+        "writable": true
+      },
+      {
+        "@id": "dtmi:msdugHomeOffice:ArduinoSmartPlantWateringKit72i:Relay2State;1",
+        "@type": "Property",
+        "displayName": {
+          "en": "Relay2State"
+        },
+        "name": "Relay2State",
+        "schema": "integer",
+        "writable": true
+      },
+      {
+        "@id": "dtmi:msdugHomeOffice:ArduinoSmartPlantWateringKit72i:Relay3State;1",
+        "@type": "Property",
+        "displayName": {
+          "en": "Relay3State"
+        },
+        "name": "Relay3State",
+        "schema": "integer",
+        "writable": true
+      },
+      {
+        "@id": "dtmi:msdugHomeOffice:ArduinoSmartPlantWateringKit72i:Relay4State;1",
+        "@type": "Property",
+        "displayName": {
+          "en": "Relay4State"
+        },
+        "name": "Relay4State",
+        "schema": "integer",
+        "writable": true
+      },
+      {
+        "@id": "dtmi:msdugHomeOffice:ArduinoSmartPlantWateringKit72i:PumpState;1",
+        "@type": "Property",
+        "displayName": {
+          "en": "PumpState"
+        },
+        "name": "PumpState",
+        "schema": "integer",
+        "writable": true
+      }
+    ],
+    "displayName": {
+      "en": "Arduino Smart Plant Watering Kit"
+    },
+    "@context": [
+      "dtmi:iotcentral:context;2",
+      "dtmi:dtdl:context;2"
+    ]
+  }
+]
