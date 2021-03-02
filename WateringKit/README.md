@@ -1,16 +1,6 @@
-# Serial to Azure IoT Central relay for ESP 8266
+# Smart Watering Kit with Serial Relay
 
 
-Insert the Wifi SSID and Wifi Password into the ino file.
+Source is an adaptation of the original sample provided by Elecrow
 
-From Azure IoT Central insert the Scope ID, Device ID and Key in the ino file.
-
-
-```
-#define WIFI_SSID "<ENTER WIFI SSID HERE>"
-#define WIFI_PASSWORD "<ENTER WIFI PASSWORD HERE>"
-
-const char* SCOPE_ID = "<ENTER SCOPE ID HERE>";
-const char* DEVICE_ID = "<ENTER DEVICE ID HERE>";
-const char* DEVICE_KEY = "<ENTER DEVICE primary/secondary KEY HERE>";
-```
+[Original Smart Watering Kit Sample](https://www.elecrow.com/download/watering_kit.zip)
